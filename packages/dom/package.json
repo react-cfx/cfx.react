@@ -1,6 +1,6 @@
 {
   "name": "cfx.react.dom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/main.js",
   "moudle": "dist/main.es.js",
   "scripts": {
