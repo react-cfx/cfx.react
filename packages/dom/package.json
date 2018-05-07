@@ -1,18 +1,22 @@
 {
   "name": "cfx.react.dom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/main.js",
   "moudle": "dist/main.es.js",
   "scripts": {
     "clean": "npx rimraf ./dist",
     "build": "npx rollup -c",
     "rebuild": "npm run clean; npm run build",
-    "test": "npm run rebuild; ./test/index.coffee",
-    "postinstall": "npm run build"
+    "test": "npm run rebuild; ./test/index.coffee"
   },
   "dependencies": {
     "cfx.require-plugin-coffee": "^0.2.1",
-    "cfx.rollup-plugin-coffee2": "^0.2.2",
+    "cfx.rollup-plugin-coffee2": "^0.2.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-better-rollup": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^1.0.0",
     "react": "^16.3.2",
     "rollup": "^0.58.2",
     "rollup-plugin-cleanup": "^3.0.0-beta.1"
