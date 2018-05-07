@@ -1,13 +1,14 @@
 {
   "name": "cfx.react.style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/main.js",
   "moudle": "dist/main.es.js",
   "scripts": {
-    "clean": "rm -rf ./dist",
-    "build": "rollup -c",
-    "rebuild": "npm run clean; npm run build",
-    "test": "npm run rebuild; ./test/index.coffee"
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "rebuild": "gulp rebuild",
+    "test": "npm run rebuild; ./test/index.coffee",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "assign-deep": "^0.4.7",

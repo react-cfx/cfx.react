@@ -1,13 +1,14 @@
 {
   "name": "cfx.react.dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/main.js",
   "moudle": "dist/main.es.js",
   "scripts": {
-    "clean": "npx rimraf ./dist",
-    "build": "npx rollup -c",
-    "rebuild": "npm run clean; npm run build",
-    "test": "npm run rebuild; ./test/index.coffee"
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "rebuild": "gulp rebuild",
+    "test": "npm run rebuild; ./test/index.coffee",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "cfx.require-plugin-coffee": "^0.2.1",
