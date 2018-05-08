@@ -4,10 +4,12 @@
   "packages": [
     "packages/*"
   ],
-  "publishConfig": {
-    "ignore": [
-      "packages/link.example"
-    ]
+  "command": {
+    "publish": {
+      "ignore": [
+        "cfx.react.link.example"
+      ]
+    }
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
