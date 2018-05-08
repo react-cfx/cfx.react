@@ -1,5 +1,5 @@
 # import { ddbs as dd } from 'ddeyes'
-import cfxify from 'cfx.dom'
+import cfxify from 'cfx.react.dom'
 
 CFX = cfxify { 'a' }
 

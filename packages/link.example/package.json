@@ -1,0 +1,32 @@
+{
+ "name": "cfx.react.link.example",
+ "version": "0.0.0",
+ "devDependencies": {
+  "@storybook/addon-info": "^3.4.3",
+  "@storybook/addon-links": "^3.4.3",
+  "@storybook/addon-options": "^3.4.3",
+  "@storybook/react": "^3.4.3",
+  "babel-core": "^6.26.3",
+  "cfx.simple-build-tool": "^0.0.12",
+  "ddeyes": "^0.2.1",
+  "shelljs": "^0.8.1"
+ },
+ "dependencies": {
+  "antd": "^3.5.0",
+  "cfx.react.dom": "^0.0.4",
+  "cfx.react.link": "^0.0.6",
+  "cfx.react.style": "^0.0.4",
+  "cfx.require-plugin-coffee": "^0.2.1",
+  "del": "^3.0.0",
+  "gulp": "^3.9.1",
+  "gulp-better-rollup": "^3.1.0",
+  "gulp-rename": "^1.2.2",
+  "gulp-sequence": "^1.0.0",
+  "normalize.css": "^8.0.0",
+  "react": "^16.3.2",
+  "react-dom": "^16.3.2",
+  "reset-css": "^3.0.0",
+  "rollup": "^0.58.2",
+  "rollup-plugin-cleanup": "^3.0.0-beta.1"
+ }
+}
