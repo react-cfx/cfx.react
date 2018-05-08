@@ -4,5 +4,10 @@
   "packages": [
     "packages/*"
   ],
+  "publishConfig": {
+    "ignore": [
+      "packages/link.example"
+    ]
+  },
   "version": "0.0.6"
 }
