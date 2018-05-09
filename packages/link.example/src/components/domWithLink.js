@@ -10,20 +10,22 @@ import {
 
 import Links from '../stories/Link';
 
-CFX = cfxify({'span': 'span', domWithLink});
+import {
+  Button
+} from 'antd';
+
+CFX = cfxify({'span': 'span', Button, domWithLink});
 
 export default function() {
-  var c_domWithLink, c_span;
-  ({c_span, c_domWithLink} = CFX);
+  var c_Button, c_domWithLink, c_span;
+  ({c_span, c_Button, c_domWithLink} = CFX);
   return c_domWithLink({
-    DomObj: c_span({
-      style: {
-        color: 'red'
-      }
-    }, 'hello world!'),
     Link: getLinks({
       Link: Links,
       kind: 'Welcome'
-    })
+    }),
+    domObj: c_Button({
+      type: 'primary'
+    }, 'hello world!')
   });
 };

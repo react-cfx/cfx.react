@@ -5,8 +5,8 @@ import 'antd/dist/antd.min.css'
 
 import Welcome from './Welcome'
 import Home from './Home'
-import test from './test'
+import domWithLink from './domWithLink'
 
 Welcome()
 Home()
-test()
+domWithLink()
