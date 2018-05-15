@@ -21,7 +21,6 @@
     "rollup-plugin-cleanup": "^3.0.0-beta.1"
   },
   "devDependencies": {
-    "coffee-require": "^0.0.4",
     "ddeyes": "^0.2.1",
     "rimraf": "^2.6.2",
     "shelljs": "^0.8.1"
