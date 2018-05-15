@@ -2,29 +2,33 @@
   "name": "cfx.react.link.dom",
   "version": "0.0.0",
   "main": "dist/index.js",
-  "module": "dist/es/index.js",
   "scripts": {
-    "clean": "gulp clean",
+    "autod": "autod",
+    "clean": "rm -rf ./dist",
     "build": "gulp build",
     "rebuild": "gulp rebuild",
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "cfx.rollup-plugin-coffee2": "^0.2.4",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-better-rollup": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sequence": "^1.0.0",
-    "rollup": "^0.58.2",
-    "rollup-plugin-cleanup": "^3.0.0-beta.1"
+    "@babel/runtime": "~7.0.0-beta.47",
+    "cfx.react.dom": "~0.0.4",
+    "cfx.react.link": "~0.0.7",
+    "cfx.rollup-plugin-coffee2": "~0.2.8",
+    "del": "~3.0.0",
+    "gulp": "~3.9.1",
+    "gulp-better-rollup": "~3.1.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sequence": "~1.0.0",
+    "rollup": "~0.59.0",
+    "rollup-plugin-cleanup": "~3.0.0-beta.1"
   },
   "devDependencies": {
+    "autod": "^3.0.1",
     "cfx.react.dom": "^0.0.4",
     "cfx.react.link": "^0.0.7",
     "coffee-require": "^0.0.4",
-    "ddeyes": "^0.2.1",
+    "ddeyes": "^0.2.8",
     "rimraf": "^2.6.2",
-    "shelljs": "^0.8.1"
+    "shelljs": "^0.8.2"
   }
 }
