@@ -8,7 +8,9 @@ domWithLink = ({
   Link
   domObj
 }) =>
+
   if Link?
+
     CFX = CFX._.extends {
       Link
       domObj
@@ -18,13 +20,13 @@ domWithLink = ({
       c_Link
       c_domObj
     } = CFX
+
     c_Link {}
     ,
       c_domObj {}
+
   else
+
     c_domObj {}
 
 export default domWithLink
-
-
-

@@ -3,17 +3,21 @@ import getLinks from 'cfx.react.link/dist/main'
 
 CFX = cfxify {}
 
-export default ({ Link, kind }) => ({
+export default ({
+  Link
+  kind
+}) => ({
   location
   children
 }) =>
+
   CFX = CFX._.extends (
     getLinks Link
     ,
       "#{kind}": "/#{kind}"
   )
 
-  render: () ->
+  render: =>
 
     c_kind = CFX["c_#{kind}"]
 
