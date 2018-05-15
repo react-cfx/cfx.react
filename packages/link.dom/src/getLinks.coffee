@@ -4,18 +4,18 @@ import getLinks from 'cfx.react.link/dist/main'
 CFX = cfxify {}
 
 export default ({ Link, kind }) => ({
-	location
-	children
+  location
+  children
 }) =>
-	CFX = CFX._.extends (
-		getLinks Link
-		,
-			"#{kind}": "/#{kind}"
-	)
+  CFX = CFX._.extends (
+    getLinks Link
+    ,
+      "#{kind}": "/#{kind}"
+  )
 
-	render: () ->
+  render: () ->
 
-		c_kind = CFX["c_#{kind}"]
+    c_kind = CFX["c_#{kind}"]
 
-		c_kind {}
-		, children
+    c_kind {}
+    , children

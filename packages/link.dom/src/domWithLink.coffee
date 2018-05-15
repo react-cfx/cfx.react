@@ -4,25 +4,25 @@ import getLinks from 'cfx.react.link/dist/main'
 CFX = cfxify {}
 
 domWithLink = ({
-	location
-	Link
-	domObj
+  location
+  Link
+  domObj
 }) =>
-	if Link?
-		CFX = CFX._.extends {
-			Link
-			domObj
-		}
+  if Link?
+    CFX = CFX._.extends {
+      Link
+      domObj
+    }
 
-		{
-			c_Link
-			c_domObj
-		} = CFX
-		c_Link {}
-		,
-			c_domObj {}
-	else
-		c_domObj {}
+    {
+      c_Link
+      c_domObj
+    } = CFX
+    c_Link {}
+    ,
+      c_domObj {}
+  else
+    c_domObj {}
 
 export default domWithLink
 

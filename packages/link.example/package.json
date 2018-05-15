@@ -15,7 +15,6 @@
   "antd": "^3.5.0",
   "cfx.react.dom": "^0.0.4",
   "cfx.react.link": "^0.0.7",
-  "cfx.react.link.dom": "^0.0.0",
   "cfx.react.style": "^0.0.4",
   "cfx.require-plugin-coffee": "^0.2.1",
   "del": "^3.0.0",

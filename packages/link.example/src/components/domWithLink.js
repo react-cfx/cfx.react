@@ -24,8 +24,10 @@ export default function() {
       Link: Links,
       kind: 'Welcome'
     }),
-    domObj: c_Button({
-      type: 'primary'
-    }, 'hello world!')
+    domObj: () => {
+      return c_Button({
+        type: 'primary'
+      }, 'hello world!');
+    }
   });
 };
