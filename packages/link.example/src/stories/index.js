@@ -9,6 +9,10 @@ import Welcome from './Welcome';
 
 import Home from './Home';
 
+import domWithLink from './domWithLink';
+
 Welcome();
 
 Home();
+
+domWithLink();
