@@ -1,8 +1,8 @@
 {
   "name": "cfx.react.link.dom",
   "version": "0.0.0",
-  "main": "dist/main.js",
-  "module": "dist/main.es.js",
+  "main": "dist/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",

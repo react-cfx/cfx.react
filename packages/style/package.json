@@ -1,8 +1,8 @@
 {
   "name": "cfx.react.style",
   "version": "0.0.4",
-  "main": "dist/main.js",
-  "moudle": "dist/main.es.js",
+  "main": "dist/inedx.js",
+  "moudle": "dist/es/index.js",
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
