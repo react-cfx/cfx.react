@@ -30,7 +30,6 @@ export default
     '@storybook/addon-options'
     '@storybook/react'
     'autod'
-    'babel-core'
     'cfx.simple-build-tool'
     'ddeyes'
     'shelljs'

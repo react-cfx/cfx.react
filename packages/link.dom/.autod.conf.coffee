@@ -6,6 +6,8 @@ export default
   plugin: ''
   test: []
   dep: [
+    "cfx.react.dom"
+    "cfx.react.link"
     "cfx.rollup-plugin-coffee2"
     "del"
     "gulp"
@@ -17,8 +19,6 @@ export default
   ]
   devdep: [
     "autod"
-    "cfx.react.dom"
-    "cfx.react.link"
     "ddeyes"
     "rimraf"
     "shelljs"
