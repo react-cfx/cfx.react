@@ -23,12 +23,12 @@ export default
     'reset-css'
     'rollup'
     'rollup-plugin-cleanup'
-  ]
-  devdep: [
     '@storybook/addon-info'
     '@storybook/addon-links'
     '@storybook/addon-options'
     '@storybook/react'
+  ]
+  devdep: [
     'autod'
     'cfx.simple-build-tool'
     'ddeyes'
