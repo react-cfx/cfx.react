@@ -1,7 +1,7 @@
 {
   "name": "cfx.react.style",
   "version": "0.0.9",
-  "main": "dist/inedx.js",
+  "main": "dist/index.js",
   "scripts": {
     "autod": "autod",
     "clean": "rm -rf ./dist",
