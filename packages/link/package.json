@@ -1,6 +1,6 @@
 {
   "name": "cfx.react.link",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "dist/index.js",
   "scripts": {
     "autod": "autod",
@@ -10,7 +10,7 @@
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "cfx.react.dom": "~0.0.10",
+    "cfx.react.dom": "^0.0.11",
     "cfx.rollup-plugin-coffee2": "~0.2.12",
     "del": "~3.0.0",
     "gulp": "~3.9.1",
