@@ -6,7 +6,7 @@
   ],
   "command": {
     "publish": {
-      "ignore": [
+      "ignoreChanges": [
         "cfx.react.link.example"
       ]
     }
