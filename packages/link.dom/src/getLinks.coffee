@@ -1,5 +1,5 @@
 import cfxify from 'cfx.react.dom'
-import getLinks from 'cfx.react.link/dist/main'
+import getLinks from 'cfx.react.link'
 
 CFX = cfxify {}
 

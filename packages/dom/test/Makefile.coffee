@@ -2,8 +2,8 @@ import dd from 'ddeyes'
 import 'shelljs/make'
 
 import React, { isValidElement } from 'react'
-# import cfxify from '../src'
-import cfxify from '../dist/main'
+import cfxify from '../src'
+# import cfxify from '../dist'
 import createReactClass from 'create-react-class'
 
 c_h1 = cfxify 'h1'
