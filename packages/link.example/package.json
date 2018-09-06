@@ -1,6 +1,6 @@
 {
   "name": "cfx.react.link.example",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "scripts": {
     "autod": "autod"
   },
@@ -20,10 +20,10 @@
     "@storybook/addon-options": "~3.4.8",
     "@storybook/react": "~3.4.8",
     "antd": "~3.7.3",
-    "cfx.react.dom": "^0.0.12",
-    "cfx.react.link": "^0.0.12",
-    "cfx.react.link.dom": "^0.0.12",
-    "cfx.react.style": "^0.0.12",
+    "cfx.react.dom": "^0.0.14",
+    "cfx.react.link": "^0.0.14",
+    "cfx.react.link.dom": "^0.0.14",
+    "cfx.react.style": "^0.0.14",
     "cfx.require-plugin-coffee": "~0.2.13",
     "del": "~3.0.0",
     "gulp": "~3.9.1",
