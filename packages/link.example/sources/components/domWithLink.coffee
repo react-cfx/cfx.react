@@ -1,6 +1,7 @@
 import cfxify from 'cfx.react.dom'
-import { domWithLink,getLinks } from 'cfx.react.link.dom'
-import Links from '../stories/Link'
+import domWithLink from 'cfx.react.link.dom'
+import Link from '../stories/Link'
+
 import {
   Button
 } from 'antd'
@@ -10,7 +11,7 @@ CFX = cfxify {
   domWithLink
 }
 
-export default ->
+export default  ->
 
   {
     c_span
@@ -19,9 +20,10 @@ export default ->
   } = CFX
 
   c_domWithLink 
-    Link: getLinks
-      Link: Links
-      kind: 'Welcome'
+    kind: 'Welcome'
+    Link: Link
+    onClick: =>
+      console.log 'this is Links onClick!!!'
     domObj: =>
       c_Button
         type: 'primary'
